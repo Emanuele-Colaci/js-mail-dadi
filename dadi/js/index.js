@@ -1,7 +1,7 @@
 //VARIABILI
-let utente = ((Math.random() * 5) +1)
+let utente = Math.floor(Math.random() *6 + 1) 
 let giocatore = utente.toFixed(0)
-let computer = ((Math.random() * 5) +1)
+let computer = Math.floor(Math.random() * 6 + 1) 
 let ui = computer.toFixed(0)
 
 //EVENTO
