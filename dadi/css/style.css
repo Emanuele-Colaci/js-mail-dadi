@@ -27,6 +27,10 @@ h1{
     color: red;
 }
 
+#pareggio{
+    color: yellowgreen;
+}
+
 button{
     margin: 20px;
     padding: 10px;
