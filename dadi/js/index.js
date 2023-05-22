@@ -10,9 +10,9 @@ function myFunction() {
     
         if(giocatore > ui){
             document.getElementById("risulato-utente").innerHTML = (`Hai vinto <br> Giocatore ${giocatore} <br> Computer ${ui}`)
-        }else if(giocatore < ui){
-            document.getElementById("risulato-computer").innerHTML = (`Hai perso <br> Giocatore ${giocatore} <br> Computer ${ui}`)
-        }else if(giocatore == ui){
+        }else if(giocatore === ui){
             document.getElementById("pareggio").innerHTML = (`Pareggio <br> Giocatore ${giocatore} <br> Computer ${ui}`)
+        }else{
+            document.getElementById("risulato-computer").innerHTML = (`Hai perso <br> Giocatore ${giocatore} <br> Computer ${ui}`)
         }
     }
