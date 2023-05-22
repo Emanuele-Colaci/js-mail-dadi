@@ -3,6 +3,6 @@ PROBLEMA : Chiedi all’utente la sua email, controlla che sia nella lista di ch
 1 - INIZIO;
 2 - Crea un prompt per chiedere all'utente la sua email;
 2 - Fare una lista con array con una email;
-3 - SE: L'esito e corretto stampa l'esito è corretto;
-4 - ALTRIMENTI: Stampa l'esito è negativo;
+3 - SE: L'esito e corretto stampa L'esito è corretto;
+4 - ALTRIMENTI: Stampa L'esito non è corretto;
 5 - FINE.
