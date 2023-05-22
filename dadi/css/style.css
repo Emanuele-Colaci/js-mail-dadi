@@ -1,0 +1,47 @@
+body{
+   background-color: rgb(21, 0, 105);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+.container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(38, 2, 181);
+}
+
+h1{
+    color: #fff;
+}
+
+#risulato-utente{
+    color: rgb(0, 206, 0);
+}
+
+#risulato-computer{
+    color: red;
+}
+
+button{
+    margin: 20px;
+    padding: 10px;
+    background-color: cornflowerblue;
+    border: 1px solid cornflowerblue;
+    box-shadow: 3px 3px 10px black;
+}
+
+button:hover{
+    border: 1px solid orange;
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
