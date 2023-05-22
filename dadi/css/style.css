@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
    background-color: rgb(21, 0, 105);
    display: flex;
@@ -13,10 +19,13 @@ body{
     align-items: center;
     flex-direction: column;
     background-color: rgb(38, 2, 181);
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px black;
 }
 
 h1{
     color: #fff;
+    margin-top: 20px;
 }
 
 #risulato-utente{
@@ -37,12 +46,13 @@ button{
     background-color: cornflowerblue;
     border: 1px solid cornflowerblue;
     box-shadow: 3px 3px 10px black;
+    border-radius: 10px;
 }
 
 button:hover{
     border: 1px solid orange;
     transform: scale(1.5);
-    transition: 1s;
+    transition: 0.5s;
 }
 
 a{
